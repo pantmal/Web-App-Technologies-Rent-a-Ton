@@ -1,0 +1,25 @@
+Here we cite all the necessary links that were used for the setup and installation of Django as well as the PostgreSQL database.
+
+General information on how to use Python Django.
+https://www.youtube.com/watch?v=F5mRW0jo-U4
+
+Make sure to be inside a virtual environment to run Django. Here's the documentation for the virtual environment we used.
+https://docs.python.org/3/tutorial/venv.html
+
+All the dependencies needed for this project can be seen in the requirements.txt file.
+You can install them with: pip install -r /path/to/requirements.txt
+
+Setting up PostgreSQL with Django on Ubuntu.
+https://www.youtube.com/watch?v=vP4ikxeWEIc
+
+Setting up PostGIS with Django REST (Only Part 1 was used).
+https://www.youtube.com/watch?v=vesf9A2PA44
+
+Additional information on how to install PostGIS with Django used from the documentation.
+https://docs.djangoproject.com/en/3.1/ref/contrib/gis/install/postgis/
+
+Reminder: If you want to use the database, it will have to set up from the start. Remember to change the database settings in 'settings.py' accordingly.
+
+Note: Regarding the bonus question, if you want to use the recommendation dataset, make sure to extract the .csv files and run the Cleanup.py file wherever they were extracted. The paths used in Cleanup.py will have to be changed, for it to work. Also, use your new paths in Database_Populate.py to install the records of the newly created cleaned-up files.
+
+

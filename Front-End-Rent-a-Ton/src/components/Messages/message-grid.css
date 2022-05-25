@@ -1,0 +1,24 @@
+.message-gird{
+
+    font-family: "Georgia", serif;
+    color: black;
+}
+
+.grid-container-msg {
+    display: grid;
+    grid-gap: 10px 10px;
+    grid-template-columns: auto auto auto ;
+
+    background-color: #2196F3;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.grid-item-msg {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    
+}

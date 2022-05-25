@@ -1,0 +1,70 @@
+.radio{
+    position: relative;
+    left: -500px;
+}
+
+.price{
+    position: relative;
+    top: -155px;
+    left: -100px;
+}
+
+
+/* .wifi{
+    position: relative;
+    top: -155px;
+    left: 200px;
+}
+
+.freezer{
+    position: relative;
+    top: -155px;
+    left: 200px;
+} */
+
+.heating{
+    position: relative;
+    top: -240px;
+}
+
+.kitchen{
+    position: relative;
+    top: -240px;
+}
+
+.tv{
+    position: relative;
+    top: -240px;
+}
+
+.parking{
+    position: relative;
+    top: -240px;
+}
+
+.elevator{
+    position: relative;
+    top: -240px;
+    margin-bottom: -240px;
+}
+
+
+.apply-with{
+    
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    padding-right: 2vh;
+    padding-left: 2vh;
+    padding-bottom: 1vh;
+    
+    margin: 4px 2px;
+
+    background-color: rgb(2, 136, 245);
+    
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}

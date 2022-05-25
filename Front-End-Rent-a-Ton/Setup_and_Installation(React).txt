@@ -1,0 +1,22 @@
+Here we cite all the necessary links that were used for the setup and installation of React JS.
+
+General information on how to use React JS.
+https://www.youtube.com/watch?v=DLX62G4lc44
+
+Installation of React JS (Only Part 1 was used).
+https://www.youtube.com/watch?v=00kXjx9k3Os
+
+All the dependencies needed for this project can be seen in the package.json file.
+By running 'npm install', all these dependecies will be installed.
+
+Extra information on the usage of React JS can be seen at the README.md file.
+
+.cert is a folder which we created. This is the folder where every SSL-related item is stored. It is advised to create this folder beforehand in order for the SLL certificated to be created properly.
+
+The ssl-maker.sh file, which is needed for the generation of the SSL certificate was taken from:
+https://gist.github.com/ptvandi/5a33c28d74ccc5100d7fe2bf5de96deb
+
+To enable the SSL certificate we followed the instructions of the official documentation:
+https://create-react-app.dev/docs/using-https-in-development/#custom-ssl-certificate
+
+Reminder: Since the SSL certificate is self-signed make sure to add it in the 'Ignore' list of the browser, in order for the application to run properly.

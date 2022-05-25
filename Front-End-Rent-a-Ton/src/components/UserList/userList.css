@@ -1,0 +1,77 @@
+.message-gird{
+
+  font-family: "Georgia", serif;
+  color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 10px 10px;
+  grid-template-columns: auto auto auto auto auto;
+
+  background-color: #2196F3;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  margin: 10px;
+  
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 40px;
+  
+}
+
+.grid-item2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  grid-column: 1 / 4;
+  grid-row: 1 / 5;
+}
+
+.grid-item3 {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  grid-column: 4 / 7;
+  
+}
+
+.pagination {
+    position: relative;
+    left: 400px; 
+    margin: 15px auto;
+    margin-right: 400px;
+    display: flex;
+    list-style: none;
+    outline: none;
+  }
+
+  .pagination > .active > a{
+    background-color: #47ccde ;
+    border-color: #47ccde ;
+    color: #fff;
+  }
+
+  .pagination > li > a{
+    border: 1px solid #47ccde ;
+    padding: 5px 10px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+    background-color: #47ccde ;
+    border-color: #47ccde;
+    outline: none ;
+  }
+
+  .pagination > li > a, .pagination > li > span{
+    color: #47ccde
+  }
+
+  .pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+    border-radius: unset
+  }
